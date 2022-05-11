@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    
+    width: 13vw;
+    position: relative;
+    top: 10vh;
+    left: 10vw;
+}
+nav ul{
+    background-color: white;
+    width: 13vw;
+    height: auto;
+    padding: 1%;
+    list-style-position: inside;
+    border: 1px black solid;
+    display: none;
+    
+}
+h3{
+    background-color: rgb(77, 77, 77);
+    width: 12vw;
+    padding: 4%;
+    color: aliceblue;
+    text-align: center;  
+}
+
+li{
+    padding: 7px;
+}
+nav:hover{
+    cursor: pointer;
+}
+nav:hover ul{
+    cursor: pointer;
+    display: block;
+}
+nav ul li:hover{
+    background-color: rgb(137, 146, 146);
+}
+
